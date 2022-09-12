@@ -4,7 +4,7 @@ import './Hero.css';
 const Hero = () => {
      return (
           <div>
-               <div className="text-[#CC9933] text-[10vw] ml-[4vw] mt-6">
+               <div className="text-[#CC9933] text-[10vw] ml-[4vw] mt-6 hover:text-[#DD6868]">
                     <span className="font-plainThin">IFTEKHAR</span><span className="italic font-saolDisplayRegular 1xs:ml-4 sm:ml-2 2xl:ml-8 3xl:ml-6">AHMED</span>
                </div>
 
@@ -16,7 +16,7 @@ const Hero = () => {
                     <p>It works that not always but it has substance to the work and following restructing values and give eminence to the salt. so work like hell to this outside of earth. Follow the path and work like vestige don't see before</p>
                </main>
 
-               <main className="italic font-saolDisplayRegular text-[#CC9933] text-[10vw] ml-[4vw]">
+               <main className="italic font-saolDisplayRegular text-[#CC9933] text-[10vw] ml-[4vw] hover:text-[#B6D6A1]">
                     <span>WEB</span><span className="1xs:ml-4 sm:ml-6 3xl:ml-12">DEVELOPER</span>
                </main>
           </div>

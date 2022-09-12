@@ -15,3 +15,7 @@
   font-family: 'Apercu';
   src: url('../public/font/apercuItalic.otf');
 }
+@font-face {
+  font-family: 'KENOKY Light';
+  src: url('../public/font/kenokyLight.ttf');
+}

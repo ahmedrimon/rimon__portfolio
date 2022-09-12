@@ -5,7 +5,8 @@ module.exports = {
     fontFamily: {
       plainThin: ['Plain Thin'],
       saolDisplayRegular: ['Saol Display Regular'],
-      apercu: ['Apercu']
+      apercu: ['Apercu'],
+      kenokyLight: ['KENOKY Light']
     },
     extend: {
       screens: {
