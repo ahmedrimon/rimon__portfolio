@@ -2,23 +2,26 @@ import React from 'react';
 import './Hero.css';
 
 const Hero = () => {
+
      return (
           <div>
-               <div className="text-[#CC9933] text-[10vw] ml-[4vw] mt-6 hover:text-[#DD6868]">
-                    <span className="font-plainThin">IFTEKHAR</span><span className="italic font-saolDisplayRegular 1xs:ml-4 sm:ml-2 2xl:ml-8 3xl:ml-6">AHMED</span>
-               </div>
+               <section>
+                    <div className="text-[#CC9933] text-[10vw] ml-[4vw] mt-6 hover:text-[#DD6868]">
+                         <span className="font-plainThin">IFTEKHAR</span><span className="italic font-saolDisplayRegular 1xs:ml-4 sm:ml-2 2xl:ml-8 3xl:ml-6">AHMED</span>
+                    </div>
 
-               <main className="font-apercu mt-10 p-6 1xs:text-sm md:text-md md:w-[56%] md:ml-12 lg:text-[102px] 3xl:text-2xl 3xl:w-[60%] 3xl:ml-28">
-                    <p>Developing is something you discover new thing also it covers your demand your devotion and supposed to see new thing how it declared. what you follow each day also what's your step by following these thing. I work cause it has meaning something to me. it gives something pleasure sometimes harder. but i try every step of the way. Circulating new waves of dominion</p>
-               </main>
+                    <main className="font-apercu mt-10 p-6 1xs:text-sm md:text-md md:w-[56%] md:ml-12 lg:text-[102px] 3xl:text-2xl 3xl:w-[60%] 3xl:ml-28">
+                         <p>Developing is something you discover new thing also it covers your demand your devotion and supposed to see new thing how it declared. what you follow each day also what's your step by following these thing. I work cause it has meaning something to me. it gives something pleasure sometimes harder. but i try every step of the way. Circulating new waves of dominion</p>
+                    </main>
 
-               <main className="font-apercu mt-10 p-6 1xs:text-sm 1xs:w-60 1xs:ml-28 md:text-md md:w-[50%] md:ml-12 lg:text-[102px] 3xl:text-2xl 3xl:w-[40%] 3xl:ml-96">
-                    <p>It works that not always but it has substance to the work and following restructing values and give eminence to the salt. so work like hell to this outside of earth. Follow the path and work like vestige don't see before</p>
-               </main>
+                    <main className="font-apercu mt-10 p-6 1xs:text-sm 1xs:w-60 1xs:ml-28 md:text-md md:w-[50%] md:ml-12 lg:text-[102px] 3xl:text-2xl 3xl:w-[40%] 3xl:ml-96">
+                         <p>It works that not always but it has substance to the work and following restructing values and give eminence to the salt. so work like hell to this outside of earth. Follow the path and work like vestige don't see before</p>
+                    </main>
 
-               <main className="italic font-saolDisplayRegular text-[#CC9933] text-[10vw] ml-[4vw] hover:text-[#B6D6A1]">
-                    <span>WEB</span><span className="1xs:ml-4 sm:ml-6 3xl:ml-12">DEVELOPER</span>
-               </main>
+                    <main className="italic font-saolDisplayRegular text-[#CC9933] text-[10vw] ml-[4vw] hover:text-[#B6D6A1]">
+                         <span>WEB</span><span className="1xs:ml-4 sm:ml-6 3xl:ml-12">DEVELOPER</span>
+                    </main>
+               </section>
           </div>
      );
 };
