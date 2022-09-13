@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 
 @font-face {
   font-family: 'Plain Thin';
@@ -18,4 +20,8 @@
 @font-face {
   font-family: 'KENOKY Light';
   src: url('../public/font/kenokyLight.ttf');
+}
+@font-face {
+  font-family: 'Apercu';
+  src: url('../public/font/apercuRegular.otf');
 }
