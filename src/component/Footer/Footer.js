@@ -28,17 +28,17 @@ const Footer = () => {
                     </div>
                </section>
                <section className="font-apercu mt-[6rem] mb-10 h-2/3">
-                         <p className="text-sm">Part of Design</p>
-                         <section className="flex mt-4">
-                              <div>
-                                   <a className="text-md" href="#instagram">Instagram</a>
-                                   <a className="text-md ml-4" href="#facebook">Facebook</a>
-                                   <a className="text-md ml-4" href="#Linkedin">Linkedin</a>
-                              </div>
-                              <div className="ml-[5rem] mt-[0.3rem]">
-                                   <p className="text-sm sm:ml-[8rem] md:ml-[14rem] lg:ml-[32rem] xl:ml-[44rem] 2xl:ml-[56rem] 3xl:ml-[80rem]">©{Year}</p>
-                              </div>
-                         </section>
+                    <p className="text-sm">Part of Design</p>
+                    <section className="flex mt-4">
+                         <div>
+                              <a className="text-md" href="https://www.facebook.com/anonnoruddho/" target="_blank" rel="noreferrer">Facebook</a>
+                              <a className="text-md ml-4" href="#facebook">Instagram</a>
+                              <a className="text-md ml-4" href="#Linkedin">Linkedin</a>
+                         </div>
+                         <div className="ml-[5rem] mt-[0.3rem]">
+                              <p className="text-sm sm:ml-[8rem] md:ml-[14rem] lg:ml-[32rem] xl:ml-[44rem] 2xl:ml-[56rem] 3xl:ml-[80rem]">©{Year}</p>
+                         </div>
+                    </section>
                </section>
           </div>
      );

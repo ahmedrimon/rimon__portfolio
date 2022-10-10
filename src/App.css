@@ -1,3 +1,6 @@
+html,
 body {
-  scroll-behavior: smooth;
+  scroll-behavior: initial;
+  width: 100%;
+  min-height: 100%;
 }
