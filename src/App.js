@@ -15,7 +15,7 @@ function App() {
     const lenis = new Lenis({
       duration: 1.2,
       // easing: (x) => (x === 1 ? 1 : 1 - Math.pow(1 - x, 3)), // https://easings.net
-      easing: (x) => (x === 1 ? 1 : Math.sin((x * Math.PI) / 2)), // https://easings.net
+      easing: (x) => (x === 1 ? 1 : 1 - (1 - x) * (1 - x)), // https://easings.net
       direction: 'vertical',
       smooth: true,
       smoothTouch: false,
