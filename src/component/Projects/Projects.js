@@ -9,7 +9,7 @@ const Projects = () => {
                <h2 className="font-kenokyLight text-[7vw] ml-[68vw] mt-14">Projects</h2>
                <div>
                     <div>
-                         <img className="w-8/12" src={icamDistribution} alt="other projects" />
+                         <img className="w-8/12 lazyload" src={icamDistribution} alt="other projects" />
                          <section className="flex justify-start">
                               <div className="font-kenokyLight ml-12 mt-[3%]">
                                    <h1 className="text-[2vw] 1xs:text-2xl sm:text-sm 3xl:text-2xl">By Iftekhar Ahmed</h1>
@@ -21,7 +21,7 @@ const Projects = () => {
                          </section>
                     </div>
                     <div className="mt-[5%]">
-                         <img className="w-8/12" src={reactExplore} alt="other projects" />
+                         <img className="w-8/12 lazyload" src={reactExplore} alt="other projects" />
                          <section className="flex justify-start">
                               <div className="font-kenokyLight ml-12">
                                    <h1 className="text-[2vw] 1xs:text-2xl sm:text-sm 3xl:text-2xl">By Iftekhar Ahmed</h1>
